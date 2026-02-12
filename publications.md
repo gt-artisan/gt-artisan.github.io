@@ -4,6 +4,22 @@ title: "Publications — ARTISAN"
 
 # Publications
 
+<p><strong>Debug:</strong> site.data.publications type:
+{% if site.data.publications %}
+  {% if site.data.publications.first %}
+    list (size={{ site.data.publications | size }})
+  {% else %}
+    map (keys={{ site.data.publications | keys | join: ", " }})
+  {% endif %}
+{% else %}
+  (nil / not loaded)
+{% endif %}
+</p>
+
+{% comment %}
+If it's a map with a key like "entries", we need to loop site.data.publications.entries instead of site.data.publications
+{% endcomment %}
+
 {% comment %}
 Make the page resilient:
 - If _data/publications.yml is missing or empty, show a friendly message.
