@@ -14,21 +14,21 @@ title: "ARTISAN — Georgia Tech"
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <h2 class="text-navy">Latest News & Events</h2>
-    <div class="grid">
-      {% assign latest_news = site.news | sort: "date" | reverse | slice: 0,3 %}
-      {% for post in latest_news %}
-      <article class="card">
-        <h3 class="text-navy"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p style="margin:.25rem 0 .5rem 0; color:#666;">{{ post.date | date: "%b %d, %Y" }}</p>
-        <p>{{ post.excerpt }}</p>
-      </article>
-      {% endfor %}
-    </div>
+{% assign news_list = site.news | default: empty %}
+{% if news_list and news_list.size > 0 %}
+  {% assign latest_news = news_list | sort: "date" | reverse | slice: 0, 3 %}
+  <div class="grid">
+  {% for post in latest_news %}
+    <article class="card">
+      <h3 class="text-navy"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p style="margin:.25rem 0 .5rem 0; color:#666;">{{ post.date | date: "%b %d, %Y" }}</p>
+      <p>{{ post.excerpt }}</p>
+    </article>
+  {% endfor %}
   </div>
-</section>
+{% else %}
+  <p>No news yet. Check back soon.</p>
+{% endif %}
 
 <section class="section section--alt">
   <div class="container">
