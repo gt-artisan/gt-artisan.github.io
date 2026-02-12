@@ -1,0 +1,65 @@
+- id: 10.1145/3569951.3593602
+  type: inproceedings
+  title: 'Cybershuttle: An End-to-End Cyberinfrastructure Continuum to Accelerate
+    Discovery in Science and Engineering'
+  year: 2023
+  authors:
+  - Marru, Suresh
+  - Pierce, Marlon
+  - Plale, Beth
+  - Pamidighantam, Sudhakar
+  - Wannipurage, Dimuthu
+  - Christie, Marcus
+  - Ranawaka, Isuru
+  - Abeysinghe, Eroma
+  - Quick, Rob
+  - Tajkhorshid, Emad
+  - Koric, Seid
+  - Basney, Jim
+  - Spivak, Mariano
+  - Isralewitz, Barry
+  - Bernardi, Rafael
+  - Gomes, Diego
+  - Krishnan, Giri
+  - Bazhenov, Maxim
+  - Smallen, Shava
+  - Majumdar, Amit
+  - Arkhipov, Anton
+  - Dai, Kael
+  - Liu, Xiao-Ping
+  - Yoshimoto, Kenneth
+  venue: 'Practice and Experience in Advanced Research Computing 2023: Computing for
+    the Common Good'
+  doi: 10.1145/3569951.3593602
+  url: https://doi.org/10.1145/3569951.3593602
+- id: 10.1145/2110486.2110490
+  type: inproceedings
+  title: 'Apache airavata: a framework for distributed applications and computational
+    workflows'
+  year: 2011
+  authors:
+  - Marru, Suresh
+  - Gunathilake, Lahiru
+  - Herath, Chathura
+  - Tangchaisin, Patanachai
+  - Pierce, Marlon
+  - Mattmann, Chris
+  - Singh, Raminder
+  - Gunarathne, Thilina
+  - Chinthaka, Eran
+  - Gardler, Ross
+  - Slominski, Aleksander
+  - Douma, Ate
+  - Perera, Srinath
+  - Weerawarana, Sanjiva
+  venue: Proceedings of the 2011 ACM Workshop on Gateway Computing Environments
+  doi: 10.1145/2110486.2110490
+  url: https://doi.org/10.1145/2110486.2110490
+- id: hayes2025quantifyingroleopenfoldcomponents
+  type: misc
+  title: Quantifying the Role of OpenFold Components in Protein Structure Prediction
+  year: 2025
+  authors:
+  - Tyler L. Hayes
+  - Giri P. Krishnan
+  url: https://arxiv.org/abs/2511.14781
