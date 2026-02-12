@@ -16,6 +16,13 @@ title: "Publications — ARTISAN"
 {% endif %}
 </p>
 
+<p><strong>Debug:</strong> count={{ site.data.publications | size }}</p>
+<ol>
+{% for p in site.data.publications %}
+  <li><code>{{ p | inspect }}</code></li>
+{% endfor %}
+</ol>
+
 {% comment %}
 If it's a map with a key like "entries", we need to loop site.data.publications.entries instead of site.data.publications
 {% endcomment %}
