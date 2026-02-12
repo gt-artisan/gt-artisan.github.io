@@ -1,8 +1,15 @@
 :root{
-  --fg:#111827;
-  --muted:#6b7280;
-  --border:#e5e7eb;
-  --link:#1d4ed8;
+  /* Georgia Tech primary colors */
+  --gt-gold: #B3A369; /* Tech Gold */
+  --gt-navy: #003057; /* Navy */
+  --gt-white: #ffffff;
+
+  /* Site tokens */
+  --fg: #0b1020;
+  --muted: #5b6275;
+  --border: #e6e8ef;
+  --link: var(--gt-navy);
+  --bg: var(--gt-white);
 }
 
 body{
@@ -40,3 +47,9 @@ footer{
   color:var(--muted);
   font-size:14px;
 }
+
+a { color: var(--link); }
+.site-header { border-bottom: 4px solid var(--gt-gold); }
+.btn { background: var(--gt-navy); }
+.btn.ghost { border-color: var(--gt-navy); color: var(--gt-navy); }
+.badge { border-color: var(--gt-gold); color: var(--gt-navy); }
