@@ -5,11 +5,24 @@ title: People
 
 # People
 
-## Leadership
-- Name — Role
+The ARTISAN team includes researchers, engineers, and collaborators working on
+AI-enabled systems and cyberinfrastructure for science and engineering.
 
-## Research & Engineering
-- Name — Focus area
+## Team
 
-## Collaborators
-- Name — Institution
+<ul class="people-list">
+{% for person in site.data.team %}
+  <li>
+    <strong>{{ person.name }}</strong><br>
+    {{ person.title }}
+
+    {% if person.scholar %}
+      <br><a href="{{ person.scholar }}">Google Scholar</a>
+    {% endif %}
+
+    {% if person.linkedin %}
+      · <a href="{{ person.linkedin }}">LinkedIn</a>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
