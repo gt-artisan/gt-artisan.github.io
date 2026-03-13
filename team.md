@@ -4,6 +4,9 @@ title: "ARTISAN Team — Georgia Tech"
 
 # ARTISAN Team
 
+The ARTISAN team includes researchers, engineers, and collaborators working on
+AI-enabled systems and cyberinfrastructure for science and engineering.
+
 <div class="grid">
 {% for person in site.data.team %}
   <div class="card">
