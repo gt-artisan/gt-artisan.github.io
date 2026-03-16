@@ -10,8 +10,8 @@
 
   projects:
     - Nexus
-    - CyberShuttle
-    - Apache Custos
+    - Cybershuttle
+    - Custos
 
   scholar: "https://scholar.google.com/citations?hl=en&user=FVWrKb0AAAAJ&view_op=list_works&sortby=pubdate"
   linkedin: "https://www.linkedin.com/in/sureshmarru/"
@@ -26,9 +26,8 @@
 
   projects:
     - Nexus
-    - CyberShuttle
+    - Cybershuttle
     - VizFold
-    - DARPA Nodes
 
   scholar: "https://scholar.google.com/citations?user=IGsdszkAAAAJ&view_op=list_works&sortby=pubdate"
   linkedin: "https://www.linkedin.com/in/giri-krishnan/"
@@ -43,7 +42,7 @@
 
   projects:
     - Nexus
-    - CyberShuttle
+    - Cybershuttle
     - SciGaP
 
   scholar: "https://scholar.google.com/citations?user=xlNkBCQAAAAJ&view_op=list_works&sortby=pubdate"
@@ -53,14 +52,69 @@
 
 - name: "Dimuthu Wannipurage"
   title: "Senior Research Engineer"
+  photo: "/assets/images/team/dimuthu-wannipurage.jpg"
+  research_focus: "Science gateways, distributed computing systems, cyberinfrastructure platforms"
+
+  short_bio: "I build scalable systems that power science gateways and distributed computing platforms used by research communities around the world. My work focuses on developing reliable services for job orchestration, data movement, and secure computing environments that enable complex scientific workflows. At ARTISAN, I help design and operate the infrastructure that connects scientific applications, data, and advanced computing resources."
+
+  projects:
+    - Nexus
+    - Custos 
+    - CyberShuttle
+
+  scholar: ""
+  linkedin: "https://www.linkedin.com/in/dimuthuupeksha/"
+  github: "https://github.com/DImuthuUpe"
 
 - name: "Lahiru Jayathilake"
   title: "Research Scientist I"
+  photo: "/assets/images/team/lahiru-jayathilake.jpg"
 
-- name: "Eroma Abeysinghe"
-  title: "Senior Research Scientist"
-  scholar: "https://scholar.google.com/citations?hl=en&user=kd4wQl0AAAAJ&view_op=list_works&sortby=pubdate"
-  linkedin: "https://www.linkedin.com/in/eroma-abeysinghe-94851b4/"
+  research_focus: "Cyberinfrastructure security, identity management, science gateway platforms"
+
+  short_-bio: "I develop secure cyberinfrastructure that enables researchers to access advanced computing systems and scientific applications. My work focuses on authentication, authorization, and identity management for distributed computing platforms and science gateways. As a lead contributor to the Apache Custos project, I help build security frameworks that allow research communities to securely access computing resources and services. At ARTISAN, I work on integrating secure identity and access management into platforms that support large-scale scientific workflows and AI-driven research."
+
+  projects:
+    - Nexus
+    - Custos
+    - Cybershuttle
+    - SciGaP
+
+  scholar: "https://scholar.google.com/citations?user=fZJR-hAAAAAJ&hl=en&oi=ao&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/lahirujayathilake/"
+  github: "https://github.com/lahirujayathilake"
 
 - name: "Yasith Jayawardana"
   title: "Research Scientist II"
+  photo: "/assets/images/team/yasith-jayawardana.jpg"
+  research_focus: "Scientific computing platforms, research productivity tools"
+  
+  short_bio: "I develop platforms that help researchers seamlessly connect their personal computing environments with powerful computing infrastructure. My work focuses on building tools that bridge local workflows, interactive analysis, and large-scale computing systems. At ARTISAN, I contribute to projects such as CyberShuttle that make advanced computing easier to use for scientists working across diverse research domains."
+
+  projects:
+    - Nexus
+    - Cybershuttle
+
+  scholar: "https://scholar.google.com/citations?user=tY4R8rYAAAAJ&hl=en&oi=ao&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/yasithdev/"
+  github: "https://github.com/yasithdev"
+  
+- name: "Eroma Abeysinghe"
+  title: "Senior Research Scientist"
+  photo: "/assets/images/team/eroma-abeysinghe.jpg"
+
+  research_focus: "Scientific workflows, science gateways, distributed computing platforms"
+
+  short_bio: "I develop and operate cyberinfrastructure platforms that enable researchers to run complex scientific applications and workflows on advanced computing systems. I support users of the SciGaP science gateway platform and the CyberShuttle system, helping research communities build and operate gateways that accelerate scientific discovery. I also coordinate ARTISAN research projects and serve as Project Manager for the Nexus Center supporting the Nexus AI supercomputing initiative at Georgia Tech."
+
+  projects:
+    - Nexus
+    - Custos
+    - SciGaP
+    - Cybershuttle
+    
+  scholar: "https://scholar.google.com/citations?hl=en&user=kd4wQl0AAAAJ&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/eroma-abeysinghe-94851b4/"
+  github: "https://github.com/eroma2014"
+
+
