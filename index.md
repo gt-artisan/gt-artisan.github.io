@@ -1,7 +1,109 @@
 ---
+layout: default
 title: "ARTISAN — Georgia Tech"
 ---
 
+<link rel="stylesheet" href="/assets/css/home.css">
+
+<div class="hero">
+
+# Center for Artificial Intelligence in Science & Engineering
+
+<p>
+ARTISAN is a joint center of the College of Computing and the Institute for Data Engineering and Science at Georgia Tech. We build AI-enabled cyberinfrastructure, intelligent platforms, and open systems that accelerate discovery across science and engineering.
+</p>
+
+<div class="hero-actions">
+
+[Explore Research](/research){: .btn }
+
+[View Projects](/projects){: .btn .ghost }
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+## What We Do
+
+ARTISAN brings together researchers, engineers, and domain scientists to develop the infrastructure and methods needed for AI-driven discovery.
+
+</div>
+
+
+<div class="section">
+
+## Research Areas
+
+<div class="research-grid">
+
+<div class="research-card">
+
+### Cyberinfrastructure & Distributed Systems
+Scalable systems supporting scientific workflows and advanced computing.
+
+</div>
+
+<div class="research-card">
+
+### AI for Science & Engineering
+AI and machine learning methods tailored for scientific discovery.
+
+</div>
+
+<div class="research-card">
+
+### Interpretable AI
+Methods that help researchers understand and trust AI-generated insights.
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+## Platforms & Initiatives
+
+<div class="platform-grid">
+
+<div class="platform-card">
+
+### Nexus
+A next-generation AI supercomputing initiative for science.
+
+</div>
+
+<div class="platform-card">
+
+### CyberShuttle
+Connects researchers' workflows to powerful computing resources.
+
+</div>
+
+<div class="platform-card">
+
+### SciGaP
+Science gateway platform supporting research communities.
+
+</div>
+
+<div class="platform-card">
+
+### Apache Custos
+Secure identity and access management for science gateways.
+
+</div>
+
+</div>
+
+</div>
+
+<!--
 <section class="bg-navy section">
   <div class="container">
     <h1 class="gt-gold" style="margin-bottom:.25rem;">Center for Artificial Intelligence in Science & Engineering</h1>
@@ -48,4 +150,4 @@ title: "ARTISAN — Georgia Tech"
       </div>
     </div>
   </div>
-</section>
+</section> -->
