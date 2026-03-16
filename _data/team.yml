@@ -3,14 +3,53 @@
 
 - name: "Suresh Marru"
   title: "Director — ARTISAN; Principal Research Scientist"
+  photo: "/assets/images/team/suresh-marru.jpg"
+  research_focus: "AI for science, cyberinfrastructure, distributed systems, scientific workflows"
+
+  short_bio: "I lead the ARTISAN Center at Georgia Tech, where we build AI-enabled cyberinfrastructure that accelerates scientific discovery across disciplines. My work focuses on distributed systems, scientific workflows, and open platforms that allow researchers to run large-scale simulations and AI models on advanced computing systems. I also lead the Nexus AI supercomputing initiative, helping develop next-generation infrastructure that makes powerful computing accessible to scientists nationwide."
+
+  projects:
+    - Nexus
+    - CyberShuttle
+    - Apache Custos
+
   scholar: "https://scholar.google.com/citations?hl=en&user=FVWrKb0AAAAJ&view_op=list_works&sortby=pubdate"
   linkedin: "https://www.linkedin.com/in/sureshmarru/"
+  github: "https://github.com/smarru"
 
 - name: "Giri Krishnan"
   title: "Associate Director — ARTISAN; Principal Research Scientist"
+  photo: "/assets/images/team/giri-krishnan.jpg"
+  research_focus: "Computational neuroscience, AI for scientific discovery, interpretable machine learning"
+
+  short_bio: "I am a computational neuroscientist fascinated by how intelligence emerges from neural computations in the brain and in artificial systems. My research combines computational neuroscience, machine learning, and AI to understand learning and memory while exploring how these principles can inspire new AI methods."
+
+  projects:
+    - Nexus
+    - CyberShuttle
+    - VizFold
+    - DARPA Nodes
+
+  scholar: "https://scholar.google.com/citations?user=IGsdszkAAAAJ&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/giri-krishnan/"
+  github: ""
 
 - name: "Sudhakar Pamidighantam"
   title: "Associate Director — ARTISAN; Principal Research Scientist"
+  photo: "/assets/images/team/sudhakar-pamidighantam.jpg"
+  research_focus: "Computational chemistry, molecular modeling, science gateways"
+
+  short_bio: "I am a computational chemist working at the intersection of molecular science and advanced computing. I lead the SEAGrid science gateway which provides researchers access to HPC resources and scientific applications for chemistry and engineering."
+
+  projects:
+    - Nexus
+    - CyberShuttle
+    - SciGaP
+
+  scholar: "https://scholar.google.com/citations?user=xlNkBCQAAAAJ&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/sudhakar-pamidighantam-0074a77/"
+  github: "https://github.com/spamidig"
+  
 
 - name: "Dimuthu Wannipurage"
   title: "Senior Research Engineer"
@@ -20,7 +59,7 @@
 
 - name: "Eroma Abeysinghe"
   title: "Senior Research Scientist"
-  scholar: "https://scholar.google.com/citations?hl=en&user=kd4wQl0AAAAJ"
+  scholar: "https://scholar.google.com/citations?hl=en&user=kd4wQl0AAAAJ&view_op=list_works&sortby=pubdate"
   linkedin: "https://www.linkedin.com/in/eroma-abeysinghe-94851b4/"
 
 - name: "Yasith Jayawardana"
