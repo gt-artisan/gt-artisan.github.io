@@ -1,0 +1,78 @@
+.team-container{
+  max-width:1000px;
+  margin:auto;
+}
+
+.team-card{
+  display:flex;
+  gap:24px;
+  border:1px solid var(--border);
+  padding:20px;
+  margin-bottom:24px;
+  border-radius:12px;
+  background:#fff;
+}
+
+.team-photo{
+  width:140px;
+  height:140px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+.team-info{
+  flex:1;
+}
+
+.team-info h3{
+  margin:0 0 6px 0;
+  color:var(--gt-navy);
+}
+
+.team-title{
+  font-weight:600;
+  margin-bottom:8px;
+}
+
+.team-focus{
+  color:#444;
+  margin-bottom:10px;
+}
+
+.team-projects{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.project-tag{
+  display:inline-block;
+  background:#f2f4f7;
+  border:1px solid var(--border);
+  padding:4px 10px;
+  margin-right:6px;
+  margin-bottom:6px;
+  border-radius:999px;
+  font-size:12px;
+}
+
+.team-links a{
+  margin-right:12px;
+  color:var(--gt-navy);
+  text-decoration:none;
+  font-weight:600;
+}
+
+.team-links a:hover{
+  text-decoration:underline;
+}
+
+@media (max-width:700px){
+  .team-card{
+    flex-direction:column;
+  }
+
+  .team-photo{
+    width:120px;
+    height:120px;
+  }
+}
