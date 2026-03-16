@@ -1,13 +1,38 @@
 # _data/projects.yml
 
 - name: "Cybershuttle"
-  blurb: "Bridging local and remote computing for end-to-end scientific research."
-  url: "https://github.com/gt-artisan/cybershuttle"
+  blurb: "Bridging local and remote computing for end-to-end scientific research. Cybershuttle, is a user-facing cyber-infrastructure that provides seamless access to a range of resources for researchers, enhancing their productivity. The Cybershuttle research environment is built on open source Apache Airavata software and uses a hybrid approach that integrates locally deployed agent programs with centrally hosted middle-ware. This enables end-to-end integration of computational science and engineering research across a range of resources, including users’ local resources, centralized university computing and data resources, computational clouds, and NSF-funded national-scale computing centers. To ensure ease of use, we have designed the platform with the best user-centered design practices in mind."
+  github: "https://github.com/gt-artisan/cybershuttle"
+  url: "https://cybershuttle.org/"
 
-- name: "Plasma VLab"
-  blurb: "Virtual laboratory resources for plasma research."
-  url: "https://github.com/GT-ARTISAN/Plasma-VLab"
+- name: "Custos"
+  blurb: "Custos is an open source, transparent, and reviewed code base for common security operations; and to operate trustworthy security services for the science gateway community using this software base. Custos will enable Science Gateways to seamlessly integrate with CILogon thus enabling federated authentication with more than 3,000 identity providers. Custos provides secured storage engine capabilities by integrating with Vault. Supports user and resource credential manamgenent including SSH keys. Custos enables Collaborations through implementation of hierarchical groups and sharing of digital artifacts between entities. Custos provides access to user level analytics and audit logs through an administrative portal interface."
+  github: "https://github.com/apache/airavata-custos"
+  url: "https://airavata.apache.org/custos/"
+
+- name: ""
+  blurb: "VizFold, Visualizing & Interpretable Protein Folding research initiative focuses on making AlphaFold and similar protein-folding models interpretable, visual, and explainable. The project is developing new techniques for exploring protein structure predictions, analyzing intermediate network representations, and helping scientists understand why these models make certain folding decisions. VizFold integrates advanced visualization, interpretability research, and scalable computing platforms such as Cybershuttle / MultiWeave, enabling interactive exploration of protein structures directly in the browser. The project is funded under an NSF NAIRR EAGER award, supporting early-stage high-risk, high-reward innovations in AI4Science."
+  github: ""
+  url: "https://vizfold.github.io/"
 
 - name: "SMILES"
-  blurb: "Software and data interfaces supporting the SMILES community."
-  url: "https://github.com/GT-ARTISAN"
+  blurb: "SMILES are “small molecule, ionic isolation lattices” that display programmable super-bright emission. SMILES materials are made of fluorescent dyes (blue) packed together in high densities that solve a long-standing problem called self-quenching. The quenching comes from a collection of phenomena that emerge when dyes pack closely together and lose their ability to emit light . SMILES solves the problem of self-quenching by isolating the dyes from each other in a high-density checker-board lattice."
+  github: "https://github.com/GT-ARTISAN"
+  url: "https://js2.smiles.scigap.org/"
+
+- name: "AMOS"
+  blurb: "The Atomic, Molecular, and Optical Sciences Gateway (AMOSGateway) enables novice and experienced users to utilize state-of-the-art software suites for tackling problems central to atomic, molecular, and optical science. This international collaboration provides a free platform and coordinated approach for computational research, allowing the community to produce new scientific results on an unprecedented scale."
+  github: "https://github.com/SciGaP/amp-gateway-django-app"
+  url: "https://amos-gateway.org/"
+
+- name: "Plasma VLab"
+  blurb: "Virtual laboratory resources for plasma research. Plasma Science and Space Weather Gateway is for scientists and physicists local and international to come together and build a community and build educational platforms. The gateway enables access to computing with Gkeyll code."
+  github: "https://github.com/GT-ARTISAN/Plasma-VLab"
+  url: "https://vlab.plasmascience.scigap.org/"
+
+- name: "SciGaP Gateway Platform"
+  blurb: "The Science Gateways Platform (SciGaP) as a service (SciGaP.org) provides a rapid development and stable hosting platform for a wide range of science gateways that focus on software as a service. Based on the open source Apache Airavata project, SciGaP services include user management, workflow execution management, computational experiment archiving and access, and sharing services that allow users to share results and other digital artifacts. SciGaP services are multi-tenanted, with clients accessing services through a well-defined, programming language-independent API. SciGaP services can be integrated into web, mobile, and desktop clients. To simplify development for new clients, SciGaP includes the a generic Python-based gateway client for SciGaP services that also acts as a reference implementation of the API."
+  github: "https://github.com/scigap"
+  url: "https://scigap.org/"
+
+- 
