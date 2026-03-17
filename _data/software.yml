@@ -1,4 +1,4 @@
-<!--# _data/software.yml-->
+# _data/software.yml
 - name: "Apache Airavata"
   desc: "Open-source framework for managing and executing computational workflows and scientific applications on distributed HPC and cloud resources."
   url: "https://airavata.apache.org/"

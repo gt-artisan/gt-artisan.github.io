@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "ARTISAN Team — Georgia Tech"
 ---
 <link rel="stylesheet" href="/assets/css/team.css">
