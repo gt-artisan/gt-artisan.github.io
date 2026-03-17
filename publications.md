@@ -23,7 +23,7 @@ function filterYear() {
     var sectionGrid = h2.nextElementSibling;
     var show = (sel === 'all' || h2.textContent.trim() === sel);
     h2.style.display = show ? 'block' : 'none';
-    if (sectionGrid) sectionGrid.style.display = show ? 'grid' : 'none';
+    if (sectionGrid) sectionGrid.style.display = show ? 'block' : 'none';
   });
 }
 </script>
@@ -31,41 +31,35 @@ function filterYear() {
   {% for y in years %}
   <h2 class="pub-year">{{ y }}</h2>
 
-  <div class="grid">
+  <div class="pub-list">
     {% for p in pubs_sorted %}
       {% if p.year == y %}
-      <article class="pub-card card">
-
-        <div class="pub-title">{{ p.title }}</div>
-
-        {% if p.authors %}
-          {% if p.authors.first %}
-            <div class="pub-authors"><em>{{ p.authors | join: ", " }}</em></div>
-          {% else %}
-            <div class="pub-authors"><em>{{ p.authors }}</em></div>
+      <article class="pub-card">
+        <div class="pub-title-row">
+          <div class="pub-title">{{ p.title }}</div>
+          {% if p.url %}
+            <a class="pub-chevron" href="{{ p.url }}" target="_blank" aria-label="Open paper"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a>
+          {% elsif p.doi %}
+            <a class="pub-chevron" href="https://doi.org/{{ p.doi }}" target="_blank" aria-label="Open paper"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a>
+          {% elsif p.pdf %}
+            <a class="pub-chevron" href="{{ p.pdf }}" target="_blank" aria-label="Open paper"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a>
+          {% elsif p.arxiv %}
+            <a class="pub-chevron" href="https://arxiv.org/abs/{{ p.arxiv }}" target="_blank" aria-label="Open paper"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a>
           {% endif %}
+        </div>
+        {% if p.authors %}
+          <div class="pub-authors">
+          {% if p.authors.first %}
+            {% for a in p.authors %}<span class="author-pill">{{ a }}</span>{% endfor %}
+          {% else %}
+            <span class="author-pill">{{ p.authors }}</span>
+          {% endif %}
+          </div>
         {% endif %}
-
         <div class="pub-meta">
           {% if p.venue %}{{ p.venue }}{% endif %}
           {% if p.year %} · {{ p.year }}{% endif %}
         </div>
-
-        <div class="pub-links">
-          {% if p.doi %}
-            <a class="pub-link" href="https://doi.org/{{ p.doi }}" target="_blank">DOI</a>
-          {% endif %}
-          {% if p.arxiv %}
-            <a class="pub-link" href="https://arxiv.org/abs/{{ p.arxiv }}" target="_blank">arXiv</a>
-          {% endif %}
-          {% if p.url %}
-            <a class="pub-link" href="{{ p.url }}" target="_blank">Link</a>
-          {% endif %}
-          {% if p.pdf %}
-            <a class="pub-link" href="{{ p.pdf }}" target="_blank">PDF</a>
-          {% endif %}
-        </div>
-
       </article>
       {% endif %}
     {% endfor %}

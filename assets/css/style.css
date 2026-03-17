@@ -193,9 +193,6 @@ img { max-width: 100%; height: auto; display: block; }
 .section h2 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
-  padding-bottom: .4rem;
-  border-bottom: 3px solid var(--gt-gold);
-  display: inline-block;
 }
 
 /* Research cards */
@@ -226,7 +223,7 @@ img { max-width: 100%; height: auto; display: block; }
 .platform-card {
   background: #fff;
   border: 1px solid var(--border);
-  border-left: 5px solid var(--gt-gold);
+  border-top: 4px solid var(--gt-gold);
   border-radius: var(--radius);
   padding: 1.25rem;
   box-shadow: 0 1px 4px rgba(0,0,0,.07);
@@ -252,12 +249,8 @@ img { max-width: 100%; height: auto; display: block; }
 .team-card {
   display: flex;
   gap: 1.5rem;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.5rem;
   margin-bottom: 1.5rem;
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+  align-items: flex-start;
 }
 .team-photo {
   width: 130px;
@@ -267,8 +260,22 @@ img { max-width: 100%; height: auto; display: block; }
   flex-shrink: 0;
   background: var(--gt-gray-light);
 }
-.team-info { flex: 1; }
-.team-info h3 { margin-bottom: .25rem; }
+.team-info {
+  flex: 1;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+}
+.team-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: .25rem;
+}
+.team-header h3 { margin: 0; flex: 1; min-width: 0; }
 .team-title { font-weight: 600; color: var(--gt-gray); margin: 0 0 .5rem; }
 .team-focus { color: var(--muted); margin-bottom: .75rem; }
 .project-tag {
@@ -281,18 +288,23 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: .8rem;
   margin: .2rem .2rem .2rem 0;
 }
-.team-links { margin-top: .75rem; }
-.team-links a {
-  color: var(--gt-navy);
-  font-weight: 600;
-  font-size: .9rem;
-  margin-right: 1rem;
-  text-decoration: none;
+.team-links {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  flex-shrink: 0;
 }
-.team-links a:hover { text-decoration: underline; }
+.team-links a {
+  color: var(--gt-gray);
+  display: flex;
+  align-items: center;
+  transition: color .15s;
+}
+.team-links a:hover { color: var(--gt-navy); }
 @media (max-width: 640px) {
   .team-card { flex-direction: column; }
   .team-photo { width: 100px; height: 100px; }
+  .team-info { width: 100%; }
 }
 
 /* =============================================
@@ -303,9 +315,8 @@ img { max-width: 100%; height: auto; display: block; }
   font-weight: 700;
   color: var(--gt-navy);
   margin: 2.5rem 0 1rem;
-  border-left: 5px solid var(--gt-gold);
-  padding-left: .75rem;
 }
+.pub-list {}
 .pub-card {
   border: 1px solid var(--border);
   border-left: 4px solid var(--gt-gold);
@@ -314,8 +325,44 @@ img { max-width: 100%; height: auto; display: block; }
   background: #fff;
   margin-bottom: 1rem;
 }
+.pub-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.pub-title-row .pub-title { flex: 1; min-width: 0; }
+.pub-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: var(--gt-gray);
+  transition: background .15s, color .15s;
+}
+.pub-chevron:hover {
+  background: var(--gt-ivory);
+  color: var(--gt-navy);
+}
 .pub-title { font-weight: 600; color: var(--gt-navy); font-size: 1rem; }
-.pub-authors { color: var(--muted); font-style: italic; margin: .2rem 0; font-size: .88rem; }
+.pub-authors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+  margin: .4rem 0;
+}
+.author-pill {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid var(--gt-gray-light);
+  color: var(--gt-gray);
+  padding: .05rem .35rem;
+  border-radius: 999px;
+  font-size: .65rem;
+}
 .pub-meta { color: var(--gt-gray); font-size: .85rem; margin: .2rem 0 .6rem; }
 .pub-link {
   display: inline-block;
@@ -366,24 +413,35 @@ img { max-width: 100%; height: auto; display: block; }
   box-shadow: 0 1px 4px rgba(0,0,0,.07);
 }
 .project-info { flex: 1; }
-.project-info h3 { margin-top: 0; margin-bottom: .4rem; }
-.project-info p { color: var(--muted); font-size: .93rem; margin-bottom: .75rem; }
-.project-links { margin-top: .5rem; }
-.project-links a {
-  color: var(--gt-navy);
-  font-weight: 600;
-  font-size: .9rem;
-  margin-right: 1rem;
-  text-decoration: none;
+.project-info p { color: var(--muted); font-size: .93rem; margin: 0; }
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: .4rem;
 }
-.project-links a:hover { text-decoration: underline; }
+.project-header h3 { margin: 0; flex: 1; min-width: 0; }
+.project-icons {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.project-icons a {
+  color: var(--gt-gray);
+  display: flex;
+  align-items: center;
+  transition: color .15s;
+}
+.project-icons a:hover { color: var(--gt-navy); }
 
 /* =============================================
    Research area cards (inner page)
    ============================================= */
 .research-area-card {
   border: 1px solid var(--border);
-  border-top: 4px solid var(--gt-gold);
+  border-left: 4px solid var(--gt-gold);
   border-radius: var(--radius);
   padding: 1.5rem;
   margin-bottom: 1.25rem;
