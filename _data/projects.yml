@@ -34,5 +34,3 @@
   blurb: "The Science Gateways Platform (SciGaP) as a service (SciGaP.org) provides a rapid development and stable hosting platform for a wide range of science gateways that focus on software as a service. Based on the open source Apache Airavata project, SciGaP services include user management, workflow execution management, computational experiment archiving and access, and sharing services that allow users to share results and other digital artifacts. SciGaP services are multi-tenanted, with clients accessing services through a well-defined, programming language-independent API. SciGaP services can be integrated into web, mobile, and desktop clients. To simplify development for new clients, SciGaP includes the a generic Python-based gateway client for SciGaP services that also acts as a reference implementation of the API."
   github: "https://github.com/scigap"
   url: "https://scigap.org/"
-
-- 
