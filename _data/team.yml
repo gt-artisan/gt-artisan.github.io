@@ -87,9 +87,9 @@
 - name: "Yasith Jayawardana"
   title: "Research Scientist II"
   photo: "/assets/images/team/yasith-jayawardana.jpg"
-  research_focus: "Scientific computing platforms, research productivity tools"
+  research_focus: "Scientific computing, neuroinformatics, research productivity tools"
   
-  short_bio: "I develop platforms that help researchers seamlessly connect their personal computing environments with powerful computing infrastructure. My work focuses on building tools that bridge local workflows, interactive analysis, and large-scale computing systems. At ARTISAN, I contribute to projects such as CyberShuttle that make advanced computing easier to use for scientists working across diverse research domains."
+  short_bio: "I am a computer scientist building tools that bring high-performance computing directly into the researcher's IDE. At ARTISAN, I contribute to CyberShuttle and Apache Airavata, and help fellow scientists scale their computational workloads on these platforms."
 
   projects:
     - Nexus
