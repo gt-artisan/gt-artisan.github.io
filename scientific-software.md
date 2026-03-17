@@ -4,7 +4,6 @@ title: "Scientific Software — ARTISAN"
 permalink: /scientific-software/
 ---
 
-<link rel="stylesheet" href="/assets/css/software.css">
 
 # Scientific Software
 

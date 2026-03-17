@@ -3,8 +3,6 @@ layout: default
 title: "ARTISAN — Georgia Tech"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
-
 <div class="hero">
   <h1>Center for Artificial Intelligence in Science &amp; Engineering</h1>
   <p>
@@ -13,18 +11,14 @@ title: "ARTISAN — Georgia Tech"
     and open systems that accelerate discovery across science and engineering.
   </p>
   <div class="hero-actions">
-    <a href="{{ '/research' | relative_url }}" class="btn">Explore Research</a>
-    <a href="{{ '/projects' | relative_url }}" class="btn ghost">View Projects</a>
+    <a href="/research" class="btn">Explore Research</a>
+    <a href="/projects" class="btn ghost">View Projects</a>
   </div>
 </div>
 
 <div class="section">
   <h2>What We Do</h2>
   <p>ARTISAN brings together researchers, engineers, and domain scientists to develop the infrastructure and methods needed for AI-driven discovery.</p>
-</div>
-
-<div class="section">
-  <h2>Research Areas</h2>
   <div class="research-grid">
     <div class="research-card">
       <h3>Cyberinfrastructure &amp; Distributed Systems</h3>

@@ -5,12 +5,11 @@ url: "https://gt-artisan.github.io"
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-relative-links
 
 nav:
-  - { label: "Home",               href: "/" }
-  - { label: "Research",           href: "/research" }
-  - { label: "Projects",           href: "/projects" }
+  - { label: "Home",                href: "/" }
+  - { label: "Research",            href: "/research" }
+  - { label: "Projects",            href: "/projects" }
   - { label: "Scientific Software", href: "/scientific-software" }
-  - { label: "ARTISAN Team",       href: "/team" }
-  - { label: "Publications",       href: "/publications" }
+  - { label: "ARTISAN Team",        href: "/team" }
+  - { label: "Publications",        href: "/publications" }

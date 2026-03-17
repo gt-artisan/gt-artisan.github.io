@@ -1,11 +1,10 @@
 <header class="site-header">
-  <div class="container header-inner">
+  <div class="header-inner">
     <a href="{{ '/' | relative_url }}" class="site-title">ARTISAN @ Georgia Tech</a>
-
     <nav class="site-nav" aria-label="Main navigation">
       {% for item in site.nav %}
         <a href="{{ item.href | relative_url }}"
-           {% if page.url == item.href %}aria-current="page"{% endif %}>
+           {% if page.url == item.href %}class="active" aria-current="page"{% endif %}>
           {{ item.label }}
         </a>
       {% endfor %}
