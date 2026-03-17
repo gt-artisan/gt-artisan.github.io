@@ -53,3 +53,16 @@ a { color: var(--link); }
 .btn { background: var(--gt-navy); }
 .btn.ghost { border-color: var(--gt-navy); color: var(--gt-navy); }
 .badge { border-color: var(--gt-gold); color: var(--gt-navy); }
+/* ── Global content padding ───────────────────── */
+#content > *:not(.hero) {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Markdown pages: constrain prose width */
+#content > h1, #content > h2, #content > h3,
+#content > p, #content > ul, #content > ol {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
