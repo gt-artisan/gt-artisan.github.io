@@ -1,0 +1,34 @@
+/* Scientific Software page */
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.software-card {
+  background: #fff;
+  border: 1px solid #dce3ec;
+  border-left: 4px solid #B3A369; /* GT Gold */
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+}
+
+.software-card h3 {
+  color: #003057;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.software-card p {
+  margin: 0 0 0.5rem 0;
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.software-card a {
+  color: #003057;
+  font-weight: 500;
+  text-decoration: underline;
+}
