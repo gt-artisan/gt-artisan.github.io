@@ -27,8 +27,14 @@
     </div>
   </header>
   
-  <main id="content" class="wrap" role="main">
-    {{ content }}
+  <main id="content" role="main">
+    {% if page.url == "/" %}
+      {{ content }}
+    {% else %}
+      <div class="page-wrap">
+        {{ content }}
+      </div>
+    {% endif %}
   </main>
   
   <footer class="site-footer">
