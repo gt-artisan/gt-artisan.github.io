@@ -9,14 +9,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   {% seo %}
 </head>
 <body>
   <a href="#content" class="skip-link">Skip to main content</a>
-  {% include header.html %}
-  <main id="content" role="main">
+  <header class="site-header">
+  <div class="wrap">
+    {% include header.html %}
+  </div>
+</header>
+  <main id="content" class="wrap" role="main">
     {{ content }}
   </main>
-  {% include footer.html %}
+  <footer class="site-footer">
+  <div class="wrap">
+    {% include footer.html %}
+  </div>
+</footer>
 </body>
 </html>
