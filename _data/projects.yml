@@ -10,7 +10,7 @@
   github: "https://github.com/apache/airavata-custos"
   url: "https://airavata.apache.org/custos/"
 
-- name: ""
+- name: "VizFold"
   blurb: "VizFold, Visualizing & Interpretable Protein Folding research initiative focuses on making AlphaFold and similar protein-folding models interpretable, visual, and explainable. The project is developing new techniques for exploring protein structure predictions, analyzing intermediate network representations, and helping scientists understand why these models make certain folding decisions. VizFold integrates advanced visualization, interpretability research, and scalable computing platforms such as Cybershuttle / MultiWeave, enabling interactive exploration of protein structures directly in the browser. The project is funded under an NSF NAIRR EAGER award, supporting early-stage high-risk, high-reward innovations in AI4Science."
   github: ""
   url: "https://vizfold.github.io/"
