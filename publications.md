@@ -1,35 +1,32 @@
 ---
 layout: default
 title: "Publications — ARTISAN"
+permalink: /publications/
 ---
 
 # Publications
 
+{% assign pubs = site.data.publications | default: empty %}
+{% if pubs and pubs.size > 0 %}
+  {% assign pubs_sorted = pubs | sort: "year" | reverse %}
+  {% assign years = pubs_sorted | map: "year" | uniq %}
+
+<div class="pub-filter">
 <label for="yearFilter" class="text-navy" style="font-weight:600;">Filter by year:</label>
-<select id="yearFilter" onchange="filterYear()">
-  <option value="all">All years</option>
-  {% for y in years %}
-    <option value="{{ y }}">{{ y }}</option>
-  {% endfor %}
-</select>
+<select id="yearFilter" onchange="filterYear()"><option value="all">All years</option>{% for y in years %}<option value="{{ y }}">{{ y }}</option>{% endfor %}</select>
+</div>
 
 <script>
 function filterYear() {
-  const sel = document.getElementById('yearFilter').value;
-  document.querySelectorAll('.pub-year').forEach((h2) => {
-    const sectionGrid = h2.nextElementSibling;
-    const show = (sel === 'all' || h2.textContent.trim() === sel);
+  var sel = document.getElementById('yearFilter').value;
+  document.querySelectorAll('.pub-year').forEach(function(h2) {
+    var sectionGrid = h2.nextElementSibling;
+    var show = (sel === 'all' || h2.textContent.trim() === sel);
     h2.style.display = show ? 'block' : 'none';
     if (sectionGrid) sectionGrid.style.display = show ? 'grid' : 'none';
   });
 }
 </script>
-
-{% assign pubs = site.data.publications | default: empty %}
-
-{% if pubs and pubs.size > 0 %}
-  {% assign pubs_sorted = pubs | sort: "year" | reverse %}
-  {% assign years = pubs_sorted | map: "year" | uniq %}
 
   {% for y in years %}
   <h2 class="pub-year">{{ y }}</h2>

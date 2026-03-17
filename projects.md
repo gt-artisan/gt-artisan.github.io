@@ -1,28 +1,22 @@
 ---
 layout: default
 title: "Projects — ARTISAN"
+permalink: /projects/
 ---
 
 # Projects
+
 {% for item in site.data.projects %}
-### {{ item.name }}
-
-{{ item.blurb }}
-
-[Website]({{ item.url }})
+<div class="project-card">
+<div class="project-info">
+<h3>{{ item.name }}</h3>
+<p>{{ item.blurb }}</p>
+<div class="project-links">
+<a href="{{ item.url }}" target="_blank">Website</a>
 {% if item.github and item.github != "" %}
-| [GitHub]({{ item.github }})
+<a href="{{ item.github }}" target="_blank">GitHub</a>
 {% endif %}
-
+</div>
+</div>
+</div>
 {% endfor %}
-
-<!--
-<div class="grid">
-{% for item in site.data.projects %}
-  <article class="card">
-    <h3 class="text-navy">{{ item.name }}</h3>
-    <p>{{ item.blurb }}</p>
-    {{ item.url }}</a>
-  </article>
-{% endfor %}
-</div> -->

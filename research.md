@@ -1,16 +1,22 @@
 ---
 layout: default
 title: "Research — ARTISAN"
+permalink: /research/
 ---
 
 # Research
 
-## Cyberinfrastructure & Distributed Systems for Scientific Computing & AI {#ci}
-We develop scalable, high-performance distributed systems that power AI and scientific research. [1](https://artisan.research.gatech.edu/)
+<div class="research-area-card">
+<h3>Cyberinfrastructure & Distributed Systems for Scientific Computing & AI</h3>
+<p>We develop scalable, high-performance distributed systems that power AI and scientific research.</p>
+</div>
 
-## AI-Driven Solutions for Science & Engineering {#ai-se}
-We design AI/ML approaches for protein modeling, quantum chemistry, climate modeling, and neuroscience. [9](https://artisan.research.gatech.edu/ai-driven-solutions-for-science-and-engineering/)
+<div class="research-area-card">
+<h3>AI-Driven Solutions for Science & Engineering</h3>
+<p>We design AI/ML approaches for protein modeling, quantum chemistry, climate modeling, and neuroscience.</p>
+</div>
 
-## Interpretable AI for Scientific Discovery {#interpretable}
-We advance AI systems that make accurate predictions and provide meaningful insights for science. [1](https://artisan.research.gatech.edu/)
-``
+<div class="research-area-card">
+<h3>Interpretable AI for Scientific Discovery</h3>
+<p>We advance AI systems that make accurate predictions and provide meaningful insights for science.</p>
+</div>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "ARTISAN Team — Georgia Tech"
+permalink: /team/
 ---
 
 # ARTISAN Team

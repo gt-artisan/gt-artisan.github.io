@@ -3,8 +3,15 @@
     <a href="{{ '/' | relative_url }}" class="site-title">ARTISAN @ Georgia Tech</a>
     <nav class="site-nav" aria-label="Main navigation">
       {% for item in site.nav %}
+        {% assign current = page.url | remove: "index.html" %}
+        {% assign href_slash = item.href | append: "/" %}
+        {% if current == item.href or current == href_slash %}
+          {% assign match = true %}
+        {% else %}
+          {% assign match = false %}
+        {% endif %}
         <a href="{{ item.href | relative_url }}"
-           {% if page.url == item.href %}class="active" aria-current="page"{% endif %}>
+           {% if match %}class="active" aria-current="page"{% endif %}>
           {{ item.label }}
         </a>
       {% endfor %}

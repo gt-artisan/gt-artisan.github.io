@@ -208,7 +208,7 @@ img { max-width: 100%; height: auto; display: block; }
 .research-card {
   background: #fff;
   border: 1px solid var(--border);
-  border-top: 4px solid var(--gt-navy);
+  border-top: 4px solid var(--gt-gold);
   border-radius: var(--radius);
   padding: 1.4rem;
   box-shadow: 0 1px 4px rgba(0,0,0,.07);
@@ -247,9 +247,7 @@ img { max-width: 100%; height: auto; display: block; }
    Team page
    ============================================= */
 .team-container {
-  max-width: 960px;
-  margin: 2rem auto;
-  padding: 0 1.5rem 4rem;
+  margin: 2rem 0;
 }
 .team-card {
   display: flex;
@@ -352,6 +350,62 @@ img { max-width: 100%; height: auto; display: block; }
 .software-card h3 { margin-top: 0; margin-bottom: .4rem; font-size: 1.05rem; }
 .software-card p  { margin: 0 0 .5rem; color: var(--muted); font-size: .93rem; }
 .software-card a  { font-weight: 600; font-size: .9rem; }
+
+/* =============================================
+   Project cards (inner page)
+   ============================================= */
+.project-card {
+  display: flex;
+  gap: 1.5rem;
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--gt-gold);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+}
+.project-info { flex: 1; }
+.project-info h3 { margin-top: 0; margin-bottom: .4rem; }
+.project-info p { color: var(--muted); font-size: .93rem; margin-bottom: .75rem; }
+.project-links { margin-top: .5rem; }
+.project-links a {
+  color: var(--gt-navy);
+  font-weight: 600;
+  font-size: .9rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.project-links a:hover { text-decoration: underline; }
+
+/* =============================================
+   Research area cards (inner page)
+   ============================================= */
+.research-area-card {
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--gt-gold);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+}
+.research-area-card h3 { margin-top: 0; margin-bottom: .4rem; }
+.research-area-card p { color: var(--muted); font-size: .95rem; margin: 0; }
+
+/* =============================================
+   Publication filter
+   ============================================= */
+.pub-filter {
+  margin-bottom: 1.5rem;
+}
+.pub-filter select {
+  padding: .35rem .75rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: .9rem;
+  margin-left: .5rem;
+}
 
 /* =============================================
    Generic grid / card
