@@ -4,7 +4,19 @@ title: "Projects — ARTISAN"
 ---
 
 # Projects
+{% for item in site.data.projects %}
+### {{ item.name }}
 
+{{ item.blurb }}
+
+[Website]({{ item.url }})
+{% if item.github and item.github != "" %}
+| [GitHub]({{ item.github }})
+{% endif %}
+
+{% endfor %}
+
+<!--
 <div class="grid">
 {% for item in site.data.projects %}
   <article class="card">
@@ -13,4 +25,4 @@ title: "Projects — ARTISAN"
     {{ item.url }}</a>
   </article>
 {% endfor %}
-</div>
+</div> -->
