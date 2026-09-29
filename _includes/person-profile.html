@@ -1,0 +1,31 @@
+<article class="person-profile">
+  {% comment %}
+  <div class="person-profile-portrait">
+    {% if person.photo_available %}
+      <img src="{{ person.photo | relative_url }}" alt="Portrait of {{ person.name }}" loading="lazy" />
+    {% else %}
+      <span aria-hidden="true">{{ person.initials }}</span>
+    {% endif %}
+  </div>
+  {% endcomment %}
+  <div class="person-profile-content">
+    <div class="person-profile-heading">
+      <div>
+        <h3>{{ person.name }}</h3>
+        <p class="person-profile-title">{{ person.title }}</p>
+      </div>
+      <div class="person-profile-links">
+        {% if person.profile %}<a href="{{ person.profile }}" target="_blank" rel="noopener noreferrer">Profile</a>{% endif %}
+        {% if person.website %}<a href="{{ person.website }}" target="_blank" rel="noopener noreferrer">Website</a>{% endif %}
+        {% if person.scholar %}<a href="{{ person.scholar }}" target="_blank" rel="noopener noreferrer">Scholar</a>{% endif %}
+        {% if person.linkedin %}<a href="{{ person.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
+        {% if person.github %}<a href="{{ person.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>{% endif %}
+      </div>
+    </div>
+    <p class="person-profile-focus"><strong>Research focus</strong> {{ person.research_focus }}</p>
+    <p class="person-profile-bio">{{ person.short_bio }}</p>
+    <div class="person-profile-projects" aria-label="Projects">
+      {% for project in person.projects %}<span>{{ project }}</span>{% endfor %}
+    </div>
+  </div>
+</article>

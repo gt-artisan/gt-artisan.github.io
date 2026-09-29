@@ -1,6 +1,9 @@
 <header class="site-header">
   <div class="header-inner">
-    <a href="{{ '/' | relative_url }}" class="site-title">ARTISAN @ Georgia Tech</a>
+    <a href="{{ '/' | relative_url }}" class="site-title">
+      <span class="site-title-main">ARTISAN</span>
+      <span class="site-title-sub">Science · AI · Cyberinfrastructure</span>
+    </a>
     <nav class="site-nav" aria-label="Main navigation">
       {% for item in site.nav %}
         {% assign current = page.url | remove: "index.html" %}
@@ -16,5 +19,6 @@
         </a>
       {% endfor %}
     </nav>
+    <a href="{{ '/partners' | relative_url }}" class="header-cta">Collaborate <span aria-hidden="true">→</span></a>
   </div>
 </header>

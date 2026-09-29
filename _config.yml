@@ -11,5 +11,6 @@ nav:
   - { label: "Research",            href: "/research" }
   - { label: "Projects",            href: "/projects" }
   - { label: "Scientific Software", href: "/scientific-software" }
-  - { label: "ARTISAN Team",        href: "/team" }
+  - { label: "Partners",            href: "/partners" }
+  - { label: "People",              href: "/people" }
   - { label: "Publications",        href: "/publications" }
