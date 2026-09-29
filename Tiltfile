@@ -20,7 +20,6 @@ local_resource(
         'projects.md',
         'publications.md',
         'scientific-software.md',
-        'team.md',
         'people.md',
     ],
     links=['http://localhost:4000'],

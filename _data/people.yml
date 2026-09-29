@@ -1,0 +1,452 @@
+# _data/people.yml
+# Tip: use spaces (no tabs), straight quotes, and quote any values with special characters.
+
+- name: "Suresh Marru"
+  display_order: 1
+  people_group: "resident-scientists"
+  initials: "SM"
+  photo_available: true
+  featured_home: true
+  title: "Principal Research Scientist"
+  photo: "/assets/images/team/suresh-marru.jpg"
+  research_focus: "AI for science, cyberinfrastructure, distributed systems, scientific workflows"
+  home_detail: "AI-enabled research platforms and cyberinfrastructure"
+  science_keywords: ["AI for Science", "HPC"]
+
+  short_bio: "Suresh Marru leads the ARTISAN Center at Georgia Tech, where his team builds AI-enabled cyberinfrastructure that accelerates scientific discovery across disciplines. His work focuses on distributed systems, scientific workflows, and open platforms that allow researchers to run large-scale simulations and AI models on advanced computing systems. He also leads the Nexus AI supercomputing initiative, helping develop next-generation infrastructure that makes powerful computing accessible to scientists nationwide."
+
+  projects:
+    - Nexus
+    - Cybershuttle
+    - Custos
+
+  scholar: "https://scholar.google.com/citations?hl=en&user=FVWrKb0AAAAJ&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/sureshmarru/"
+  github: "https://github.com/smarru"
+
+- name: "Giri Krishnan"
+  display_order: 3
+  people_group: "resident-scientists"
+  initials: "GK"
+  photo_available: true
+  featured_home: true
+  title: "Principal Research Scientist"
+  photo: "/assets/images/team/giri-krishnan.jpg"
+  research_focus: "Computational neuroscience, AI for scientific discovery, interpretable machine learning"
+  home_detail: "Computational models of learning, memory, and intelligence"
+  science_keywords: ["AI4Science", "ML"]
+
+  short_bio: "Giri Krishnan is a computational neuroscientist studying how intelligence emerges from neural computations in the brain and in artificial systems. His research combines computational neuroscience, machine learning, and AI to understand learning and memory while exploring how these principles can inspire new AI methods."
+
+  projects:
+    - Nexus
+    - Cybershuttle
+    - VizFold
+
+  scholar: "https://scholar.google.com/citations?user=IGsdszkAAAAJ&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/giri-krishnan/"
+  github: ""
+
+- name: "Sudhakar Pamidighantam"
+  display_order: 6
+  people_group: "resident-scientists"
+  initials: "SP"
+  photo_available: true
+  featured_home: true
+  title: "Principal Research Scientist"
+  photo: "/assets/images/team/sudhakar-pamidighantam.jpg"
+  research_focus: "Computational chemistry, molecular modeling, science gateways"
+  home_detail: "Molecular science powered by advanced computing"
+  science_keywords: ["Chemistry", "HPC"]
+
+  short_bio: "Sudhakar Pamidighantam is a computational chemist working at the intersection of molecular science and advanced computing. He leads the SEAGrid science gateway, which provides researchers access to HPC resources and scientific applications for chemistry and engineering."
+
+  projects:
+    - Nexus
+    - Cybershuttle
+    - SciGaP
+
+  scholar: "https://scholar.google.com/citations?user=xlNkBCQAAAAJ&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/sudhakar-pamidighantam-0074a77/"
+  github: "https://github.com/spamidig"
+
+
+- name: "Mohammed AlQuraishi"
+  display_order: 4
+  people_group: "collaborators"
+  initials: "MA"
+  photo_available: true
+  featured_home: true
+  title: "Assistant Professor of Systems Biology (in Computer Science), Columbia University"
+  photo: "/assets/images/team/mohammed-alquraishi.jpg"
+  research_focus: "Machine learning, protein structure and function, biophysics, systems biology"
+  home_detail: "Machine learning for protein structure and biological systems"
+  science_keywords: ["Protein Science", "AI"]
+
+  short_bio: "Mohammed AlQuraishi works at the intersection of machine learning, biophysics, and systems biology. His laboratory develops computational models of protein structure, function, and interactions, then applies them at proteome scale to study biological signaling and disease."
+
+  projects:
+    - OpenFold
+    - Protein Structure
+    - Machine Learning
+
+  profile: "https://systemsbiology.columbia.edu/faculty/mohammed-alquraishi"
+  website: "https://www.aqlab.io/"
+  scholar: ""
+  linkedin: ""
+  github: "https://github.com/aqlaboratory"
+
+- name: "Lahiru Jayathilake"
+  display_order: 7
+  people_group: "resident-engineers"
+  initials: "LJ"
+  photo_available: false
+  featured_home: false
+  title: "Research Scientist I"
+  photo: "/assets/images/team/lahiru-jayathilake.jpg"
+
+  research_focus: "Cyberinfrastructure security, identity management, science gateway platforms"
+
+  short_bio: "Lahiru Jayathilake develops secure cyberinfrastructure that enables researchers to access advanced computing systems and scientific applications. His work focuses on authentication, authorization, and identity management for distributed computing platforms and science gateways. As a lead contributor to Apache Custos, he builds security frameworks that allow research communities to securely access computing resources and services. At ARTISAN, he integrates secure identity and access management into platforms supporting large-scale scientific workflows and AI-driven research."
+
+  projects:
+    - Nexus
+    - Custos
+    - Cybershuttle
+    - SciGaP
+
+  scholar: "https://scholar.google.com/citations?user=fZJR-hAAAAAJ&hl=en&oi=ao&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/lahirujayathilake/"
+  github: "https://github.com/lahirujayathilake"
+
+- name: "Seid Koric"
+  display_order: 2
+  people_group: "affiliated-scientists"
+  initials: "SK"
+  photo_available: true
+  featured_home: true
+  title: "Research Professor; Technical Associate Director, NCSA"
+  photo: "/assets/images/team/seid-koric.jpg"
+  research_focus: "AI-enabled scientific computing, high-performance computing, multiphysics, digital twins"
+  home_detail: "AI and scalable simulation for complex engineering systems"
+  science_keywords: ["HPC", "Digital Twins"]
+
+  short_bio: "Seid Koric leads interdisciplinary research combining artificial intelligence, high-performance computing, and advanced numerical methods. His work spans scientific machine learning, multiphysics simulation, materials processing, digital twins, and scalable engineering applications."
+
+  projects:
+    - AI + HPC
+    - Scientific Computing
+    - Digital Twins
+
+  profile: "https://mechse.illinois.edu/people/profile/koric"
+  scholar: ""
+  linkedin: ""
+  github: ""
+
+- name: "Anton Arkhipov"
+  display_order: 5
+  people_group: "affiliated-scientists"
+  initials: "AA"
+  photo_available: true
+  featured_home: true
+  title: "Investigator, D3 Scientific, Allen Institute"
+  photo: "/assets/images/team/anton-arkhipov.jpg"
+
+  research_focus: "Biophysically detailed brain modeling, computational neuroscience, neural circuits"
+  home_detail: "Biophysically detailed models of neurons and brain circuits"
+  science_keywords: ["Neuroscience", "Brain Modeling"]
+
+  short_bio: "Anton Arkhipov leads the Bio-Realistic Modeling Team at the Allen Institute. His research integrates anatomical and physiological data to build detailed computational models of individual neurons and large-scale brain circuits for scientific discovery."
+
+  projects:
+    - Brain Modeling
+    - Neural Circuits
+    - Open Science
+
+  profile: "https://alleninstitute.org/person/anton-arkhipov"
+  scholar: ""
+  linkedin: ""
+  github: ""
+
+- name: "Dimuthu Wannipurage"
+  display_order: 8
+  people_group: "resident-engineers"
+  initials: "DW"
+  photo_available: false
+  featured_home: false
+  title: "Senior Research Engineer"
+  photo: "/assets/images/team/dimuthu-wannipurage.jpg"
+  research_focus: "Science gateways, distributed computing systems, cyberinfrastructure platforms"
+
+  short_bio: "Dimuthu Wannipurage builds scalable systems that power science gateways and distributed computing platforms used by research communities around the world. His work focuses on reliable services for job orchestration, data movement, and secure computing environments that enable complex scientific workflows. At ARTISAN, he helps design and operate infrastructure connecting scientific applications, data, and advanced computing resources."
+
+  projects:
+    - Nexus
+    - Custos
+    - CyberShuttle
+
+  scholar: ""
+  linkedin: "https://www.linkedin.com/in/dimuthuupeksha/"
+  github: "https://github.com/DImuthuUpe"
+
+- name: "Yasith Jayawardana"
+  display_order: 9
+  people_group: "resident-engineers"
+  initials: "YJ"
+  photo_available: true
+  featured_home: false
+  title: "Research Scientist II"
+  photo: "/assets/images/team/yasith-jayawardana.jpg"
+  research_focus: "Scientific computing, neuroinformatics, research productivity tools"
+
+  short_bio: "Yasith Jayawardana is a computer scientist building tools that bring high-performance computing directly into the researcher's IDE. At ARTISAN, he contributes to CyberShuttle and Apache Airavata and helps scientists scale their computational workloads across advanced computing platforms."
+
+  projects:
+    - Nexus
+    - Cybershuttle
+
+  scholar: "https://scholar.google.com/citations?user=tY4R8rYAAAAJ&hl=en&oi=ao&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/yasithdev/"
+  github: "https://github.com/yasithdev"
+
+- name: "Eroma Abeysinghe"
+  display_order: 10
+  people_group: "resident-scientists"
+  initials: "EA"
+  photo_available: true
+  featured_home: false
+  title: "Senior Research Scientist"
+  photo: "/assets/images/team/eroma-abeysinghe.jpg"
+  research_focus: "Scientific workflows, science gateways, distributed computing platforms"
+
+  short_bio: "Eroma Abeysinghe develops and operates cyberinfrastructure platforms that enable researchers to run complex scientific applications and workflows on advanced computing systems. She supports research communities using SciGaP and CyberShuttle and coordinates ARTISAN research projects. She also serves as Project Manager for the Nexus Center supporting Georgia Tech's Nexus AI supercomputing initiative."
+
+  projects:
+    - Nexus
+    - Custos
+    - SciGaP
+    - Cybershuttle
+
+  scholar: "https://scholar.google.com/citations?hl=en&user=kd4wQl0AAAAJ&view_op=list_works&sortby=pubdate"
+  linkedin: "https://www.linkedin.com/in/eroma-abeysinghe-94851b4/"
+  github: "https://github.com/eroma2014"
+
+- name: "Emad Tajkhorshid"
+  display_order: 11
+  people_group: "affiliated-scientists"
+  initials: "ET"
+  photo_available: false
+  featured_home: false
+  title: "J. Woodland Hastings Endowed Chair and Professor of Biochemistry; Faculty Affiliate in Chemistry"
+  photo: "/assets/images/team/emad-tajkhorshid.jpg"
+  research_focus: "Computational structural biology, molecular biophysics, membrane proteins, drug discovery"
+
+  short_bio: "Emad Tajkhorshid develops and applies advanced computational techniques to characterize biological phenomena at molecular resolution. His research focuses on membranes and membrane proteins, including transport mechanisms, energy transduction, protein-lipid interactions, signaling, and structure-guided discovery."
+
+  projects:
+    - Molecular Dynamics
+    - Structural Biology
+    - Membrane Proteins
+
+  profile: "https://chemistry.illinois.edu/emad"
+  website: "https://csbmb.beckman.illinois.edu/"
+  scholar: ""
+  linkedin: ""
+  github: ""
+
+- name: "Shava Smallen"
+  display_order: 12
+  people_group: "affiliated-scientists"
+  initials: "SS"
+  photo_available: false
+  featured_home: false
+  title: "Software Architect, San Diego Supercomputer Center"
+  photo: "/assets/images/team/shava-smallen.jpg"
+  research_focus: "Cloud computing, research cyberinfrastructure, science gateways, distributed systems"
+
+  short_bio: "Shava Smallen designs cloud computing systems and research cyberinfrastructure that make scalable resources easier for scientific communities to use. As a co-principal investigator and lead architect for the CloudBank user portal, she has helped develop services for cloud access, cost monitoring, governance, and international research collaboration."
+
+  projects:
+    - CloudBank
+    - Research Cloud
+    - Science Gateways
+
+  profile: "https://www.sdsc.edu/news/2021/PR20210616_Shava_CERN.html"
+  scholar: ""
+  linkedin: ""
+  github: ""
+
+- name: "Amanda Randles"
+  display_order: 13
+  people_group: "collaborators"
+  initials: "AR"
+  photo_available: false
+  featured_home: false
+  title: "Professor of Biomedical Engineering, Duke University"
+  photo: "/assets/images/team/amanda-randles.jpg"
+  research_focus: "Biomedical simulation, high-performance computing, computational modeling, digital twins"
+
+  short_bio: "Amanda Randles develops high-performance biomedical simulations and computational tools that reveal how human diseases localize and progress. Her research combines large-scale computing, patient-specific modeling, and fluid dynamics to study conditions ranging from cardiovascular disease to cancer."
+
+  projects:
+    - Biomedical Simulation
+    - HPC
+    - Digital Twins
+
+  profile: "https://bme.duke.edu/people/amanda-randles/"
+  website: "https://randleslab.pratt.duke.edu/"
+  scholar: ""
+  linkedin: ""
+  github: ""
+
+- name: "Kostas T. Konstantinidis"
+  display_order: 14
+  people_group: "collaborators"
+  initials: "KK"
+  photo_available: false
+  featured_home: false
+  title: "Richard C. Tucker Professor, Georgia Tech"
+  photo: "/assets/images/team/kostas-konstantinidis.jpg"
+  research_focus: "Microbial genomics, metagenomics, bioinformatics, microbiome engineering"
+
+  short_bio: "Kostas T. Konstantinidis studies how microorganisms adapt to environmental change and cause disease. His research group develops genomics, metagenomics, metatranscriptomics, and bioinformatics methods to investigate microbial communities, water quality, environmental biotechnology, and the evolution of microbial species."
+
+  projects:
+    - Microbial Genomics
+    - Metagenomics
+    - Bioinformatics
+
+  profile: "https://ce.gatech.edu/directory/person/kostas-t-konstantinidis"
+  website: "https://enve-omics.gatech.edu/"
+  scholar: ""
+  linkedin: ""
+  github: ""
+
+- name: "Alison Marsden"
+  display_order: 15
+  people_group: "collaborators"
+  initials: "AM"
+  photo_available: false
+  featured_home: false
+  title: "Douglass M. and Nola Leishman Professor of Cardiovascular Diseases, Stanford University"
+  photo: "/assets/images/team/alison-marsden.jpg"
+  research_focus: "Cardiovascular simulation, computational fluid dynamics, medical devices, virtual surgery"
+
+  short_bio: "Alison Marsden develops numerical methods and patient-specific computational models for cardiovascular blood flow. Her research applies large-scale fluid mechanics, optimization, and uncertainty quantification to cardiovascular surgery, congenital heart disease, and medical-device design."
+
+  projects:
+    - Cardiovascular Modeling
+    - SimVascular
+    - Virtual Surgery
+
+  profile: "https://med.stanford.edu/profiles/alison-marsden"
+  website: "https://cbcl.stanford.edu/"
+  scholar: ""
+  linkedin: ""
+  github: ""
+
+- name: "Justin Tran"
+  display_order: 16
+  people_group: "collaborators"
+  initials: "JT"
+  photo_available: false
+  featured_home: false
+  title: "Associate Professor of Mechanical Engineering, Cal State Fullerton"
+  photo: "/assets/images/team/justin-tran.jpg"
+  research_focus: "Computational cardiovascular engineering, blood-flow simulation, biomechanics, science gateways"
+
+  short_bio: "Justin Tran develops computational methods for studying cardiovascular blood flow and disease. His work combines engineering biomechanics, patient-specific simulation, and research cyberinfrastructure, including the SimVascular Gateway for education and large-scale cardiovascular research."
+
+  projects:
+    - Cardiovascular Modeling
+    - SimVascular
+    - Science Gateways
+
+  scholar: ""
+  linkedin: "https://www.linkedin.com/in/justin-tran-413b45123/"
+  github: ""
+
+- name: "Amitava Bhattacharjee"
+  display_order: 17
+  people_group: "affiliated-scientists"
+  initials: "AB"
+  photo_available: false
+  featured_home: false
+  title: "Professor of Astrophysical Sciences, Princeton University and Princeton Plasma Physics Laboratory"
+  photo: "/assets/images/team/amitava-bhattacharjee.jpg"
+  research_focus: "Plasma physics, magnetic reconnection, turbulence, dynamo theory, stellarator modeling"
+
+  short_bio: "Amitava Bhattacharjee studies fundamental processes in laboratory, space, and astrophysical plasmas. His research spans magnetic reconnection, current-sheet formation, turbulence, dynamo theory, kinetic plasma theory, and the physics and computation of stellarators."
+
+  projects:
+    - Plasma Physics
+    - Heliophysics
+    - Stellarators
+
+  profile: "https://amitava.scholar.princeton.edu/"
+  scholar: ""
+  linkedin: ""
+  github: ""
+
+- name: "Cameron Smith"
+  display_order: 18
+  people_group: "affiliated-scientists"
+  initials: "CS"
+  photo_available: false
+  featured_home: false
+  title: "Senior Research Scientist, Rensselaer Polytechnic Institute"
+  photo: "/assets/images/team/cameron-smith.jpg"
+  research_focus: "Scientific computing, parallel mesh infrastructure, multiphysics coupling, high-performance computing"
+
+  short_bio: "Cameron Smith develops scalable scientific-computing methods and software for complex simulations on high-performance systems. His work includes parallel unstructured mesh infrastructure, adaptive modeling, multiphysics coupling, and computational workflows for applications such as fusion plasma and sea- and land-ice modeling."
+
+  projects:
+    - Scientific Computing
+    - Parallel Meshes
+    - Multiphysics
+
+  profile: "https://vlab.plasmascience.scigap.org/team/"
+  website: "https://scorec.rpi.edu/research/parallel-unstructured-mesh-infrastructure"
+  scholar: ""
+  linkedin: ""
+  github: ""
+
+- name: "Boyang Gong"
+  display_order: 19
+  people_group: "students"
+  initials: "BG"
+  photo_available: false
+  featured_home: false
+  title: "Industrial Engineering Student, Georgia Tech"
+  photo: "/assets/images/team/boyang-gong.jpg"
+  research_focus: "Industrial engineering, operational excellence, student leadership"
+
+  short_bio: "Boyang Gong is an industrial engineering student at Georgia Tech. He contributes to the Institute of Industrial and Systems Engineers as an Operational Excellence Board member and supports incoming students as a FASET Leader."
+
+  projects:
+    - Industrial Engineering
+    - Operations
+    - Student Leadership
+
+  profile: "https://transitionprograms.gatech.edu/faset-leader/6320/boyang-gong"
+
+- name: "Tyler Hayes"
+  display_order: 20
+  people_group: "alumni"
+  initials: "TH"
+  photo_available: false
+  featured_home: false
+  title: "AI Research Scientist, Arsenale Bioyards"
+  photo: "/assets/images/team/tyler-hayes.jpg"
+  research_focus: "Continual machine learning, computer vision, streaming learning, efficient AI"
+
+  short_bio: "Tyler Hayes develops machine-learning methods that enable neural networks to learn continually from evolving streams of data. A former Georgia Tech research scientist, his work spans continual and lifelong learning, computer vision, memory-efficient training, and AI for biological systems."
+
+  projects:
+    - Continual Learning
+    - Computer Vision
+    - Efficient AI
+
+  website: "https://tyler-hayes.github.io/"
+  linkedin: "https://www.linkedin.com/in/tyler-hayes1123/"
+  github: "https://github.com/tyler-hayes"
