@@ -2004,12 +2004,12 @@ img { max-width: 100%; height: auto; display: block; }
   padding-top: clamp(54px, 8vw, 82px);
   padding-bottom: 46px;
 }
-.simple-home h1 { font-size: clamp(2.35rem, 6vw, 3.65rem); line-height: 1.06; font-weight: 700; letter-spacing: -.045em; margin: 0 0 22px; max-width: 13ch; text-wrap: balance; }
+.simple-home h1 { font-size: clamp(2.35rem, 6vw, 3.65rem); line-height: 1.06; font-weight: 700; letter-spacing: -.045em; margin: 0 0 22px; max-width: 25ch; text-wrap: balance; }
 .simple-home h2 { font-size: 1.32rem; font-weight: 700; line-height: 1.3; margin: 0 0 14px; text-wrap: balance; }
 .simple-home h3 { font-size: .97rem; font-weight: 700; margin: 0 0 5px; letter-spacing: 0; }
 .simple-home p { margin: 0 0 13px; max-width: 64ch; }
 .simple-home p:last-child { margin-bottom: 0; }
-.simple-home .sh-eyebrow { font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--sh-gold); margin: 0 0 10px; }
+.simple-home .sh-eyebrow { font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--sh-gold); margin: 0 0 10px; max-width: none; }
 .simple-home .sh-lede { font-size: clamp(1.08rem, 2.2vw, 1.2rem); line-height: 1.62; color: var(--sh-muted); max-width: 62ch; }
 .simple-home .sh-accent-cross { color: var(--sh-cross); font-weight: 700; }
 .simple-home .sh-accent-scale { color: var(--sh-scale); font-weight: 700; }
