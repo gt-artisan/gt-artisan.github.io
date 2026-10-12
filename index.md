@@ -254,14 +254,14 @@ title: "ARTISAN — Georgia Tech"
 
 <section class="sh-section" id="contact">
   <p class="sh-eyebrow">Contact</p>
-  <h2>Have a challenge that needs more than one field?</h2>
-  <p>Tell us what you are trying to solve. We would like to hear about it, and we will work out with you whether and how we can help. You do not need a finished plan or a funded project to get in touch.</p>
+  <h2>Have a scientific challenge ?</h2>
+  <p>Tell us what you are trying to solve. We would like to hear about it, and we are ready to collaborate towards scientific challenges. You do not need a finished plan or a funded project to get in touch.</p>
 
   <div class="sh-contact">
     <div class="sh-contact-main">
       <p class="sh-plabel">Write to the center</p>
       <p><a class="sh-email" href="mailto:artisan@groups.gatech.edu">artisan@groups.gatech.edu</a></p>
-      <p class="sh-note">This reaches the whole team. It helps to say what the scientific question is, what you have tried so far, and where it is stuck &mdash; the science, the data, the methods, or the computing.</p>
+      <p class="sh-note">This reaches the whole team. It helps to say what the scientific question is, and where you need collaboration: the science, the data, AI methods, or the computing.</p>
     </div>
 
     <div class="sh-contact-people">
