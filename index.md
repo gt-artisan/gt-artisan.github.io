@@ -7,7 +7,7 @@ title: "ARTISAN — Georgia Tech"
 
 <section class="sh-section sh-hero">
   <p class="sh-eyebrow">Center for Artificial Intelligence in Science and Engineering</p>
-  <h1>Where science, AI, and infrastructure work as one</h1>
+  <h1>Where science, AI, and infrastructure come together.</h1>
   <p class="sh-lede">We bring science, AI, and high-performance computing together. Grand scientific challenges demand <span class="sh-accent-cross">interdisciplinary</span> teams that combine domain insight, advanced models, and HPC infrastructure <span class="sh-accent-scale">at scale</span>.</p>
   <div class="sh-why" aria-label="Why interdisciplinary work and scale matter">
     <article class="sh-why-item sh-why-cross">
