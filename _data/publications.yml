@@ -1,3 +1,107 @@
+- id: vennamreddy2026composable
+  type: inproceedings
+  title: A Composable and Modular Framework for Protein Structure Prediction on HPC
+  year: 2026
+  authors:
+  - Vennamreddy, Jayanth
+  - Virani, Arish
+  - Yin, Kevin
+  - Ramasubramanian, Vishal
+  - Ramasamy, Jeeva
+  - Krishnan, Giri
+  - Marru, Suresh
+  venue: 'Practice and Experience in Advanced Research Computing 2026: Resilient Roots
+    + Empowered Communities'
+  doi: 10.1145/3785462.3815886
+  url: https://doi.org/10.1145/3785462.3815886
+- id: jayathilake2026federated
+  type: inproceedings
+  title: Federated HPC Account Provisioning Using CILogon, COmanage, and PAM-Based
+    OAuth2 Device Flow
+  year: 2026
+  authors:
+  - Jayathilake, Lahiru
+  - Jayawardana, Yasith
+  - Wannipurage, Dimuthu
+  - Marru, Suresh
+  venue: 'Practice and Experience in Advanced Research Computing 2026: Resilient Roots
+    + Empowered Communities'
+  doi: 10.1145/3785462.3815896
+  url: https://doi.org/10.1145/3785462.3815896
+- id: wallace2025dml
+  type: misc
+  title: $\Delta$-ML Ensembles for Selecting Quantum Chemistry Methods to Compute
+    Intermolecular Interactions
+  year: 2025
+  authors:
+  - Wallace, Austin M.
+  - Sherrill, C. David
+  - Krishnan, Giri P.
+  venue: arXiv preprint
+  url: https://arxiv.org/abs/2511.17753
+  arxiv: '2511.17753'
+- id: hayes2025quantifyingroleopenfoldcomponents
+  type: misc
+  title: Quantifying the Role of OpenFold Components in Protein Structure Prediction
+  year: 2025
+  authors:
+  - Tyler L. Hayes
+  - Giri P. Krishnan
+  venue: arXiv preprint
+  url: https://arxiv.org/abs/2511.14781
+  arxiv: '2511.14781'
+- id: 10.1145/3569951.3597572
+  type: inproceedings
+  title: 'Airavata Data Catalog: A Multi-tenant Metadata Service for Efficient Data
+    Discovery and Access Control'
+  year: 2023
+  authors:
+  - Christie, Marcus
+  - Marru, Suresh
+  - Pamidighantam, Sudhakar
+  - Ranawaka, Isuru
+  - Wannipurage, Dimuthu
+  venue: 'Practice and Experience in Advanced Research Computing 2023: Computing for
+    the Common Good'
+  doi: 10.1145/3569951.3597572
+  url: https://doi.org/10.1145/3569951.3597572
+- id: ranawaka2023airavata
+  type: incollection
+  title: 'Airavata Metascheduler: A Reliable, Fault Tolerant, and Resource-Aware Job
+    Scheduling Service'
+  year: 2023
+  authors:
+  - Ranawaka, Isuru
+  - Abeysinghe, Eroma
+  - Wannipurage, Dimuthu
+  - De Silva, Dinuka
+  - Brookes, Emre
+  - Marru, Suresh
+  - Christie, Marcus
+  - Pamidighantam, Sudhakar
+  - Pierce, Marlon
+  venue: 'Practice and Experience in Advanced Research Computing 2023: Computing for
+    the Common Good'
+- id: blaze2023
+  type: inproceedings
+  title: 'Blaze: A High-Performance, Scalable, and Efficient Data Transfer Framework
+    with Configurable and Extensible Features : Principles, Implementation, and Evaluation
+    of a Transatlantic Inter-Cloud Data Transfer Case Study'
+  year: 2023
+  authors:
+  - Marru, Suresh
+  - Freitag, Brian
+  - Wannipurage, Dimuthu
+  - Bommala, Uday Kumar
+  - Pradier, Patrick
+  - Demange, Christophe
+  - Pantha, Nishan
+  - Mukherjee, Tathagata
+  - Rosich, Betlem
+  - Monjoux, Eric
+  - Ramachandran, Rahul
+  venue: 2023 IEEE 16th International Conference on Cloud Computing (CLOUD)
+  doi: 10.1109/CLOUD60044.2023.00016
 - id: 10.1145/3569951.3593602
   type: inproceedings
   title: 'Cybershuttle: An End-to-End Cyberinfrastructure Continuum to Accelerate
@@ -32,6 +136,56 @@
     the Common Good'
   doi: 10.1145/3569951.3593602
   url: https://doi.org/10.1145/3569951.3593602
+- id: wannipurage2021multi
+  type: article
+  title: A multi-protocol, secure, and dynamic data storage integration frameworkfor
+    multi-tenanted science gateway middleware
+  year: 2021
+  authors:
+  - Wannipurage, Dimuthu
+  - Ranawaka, Isuru
+  - Abeysinghe, Eroma
+  - Christie, Marcus
+  - Marru, Suresh
+  - Pierce, Marlon
+  venue: arXiv preprint arXiv:2107.03882
+- id: 10.1145/3311790.3396635
+  type: inproceedings
+  title: 'Custos: Security Middleware for Science Gateways'
+  year: 2020
+  authors:
+  - Ranawaka, Isuru
+  - Marru, Suresh
+  - Graham, Juleen
+  - Bisht, Aarushi
+  - Basney, Jim
+  - Fleury, Terry
+  - Gaynor, Jeff
+  - Wannipurage, Dimuthu
+  - Christie, Marcus
+  - Mahmoud, Alexandru
+  - Afgan, Enis
+  - Pierce, Marlon
+  venue: 'Practice and Experience in Advanced Research Computing 2020: Catch the Wave'
+  doi: 10.1145/3311790.3396635
+  url: https://doi.org/10.1145/3311790.3396635
+- id: sciencegateways2015survey
+  type: article
+  title: 'Science gateways today and tomorrow: positive perspectives of nearly 5000
+    members of the research community'
+  year: 2015
+  authors:
+  - Lawrence, Katherine A.
+  - Zentner, Michael
+  - Wilkins-Diehr, Nancy
+  - Wernert, Julie A.
+  - Pierce, Marlon
+  - Marru, Suresh
+  - Michael, Scott
+  venue: 'Concurrency and Computation: Practice and Experience'
+  doi: https://doi.org/10.1002/cpe.3526
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.3526
+  arxiv: https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.3526
 - id: 10.1145/2110486.2110490
   type: inproceedings
   title: 'Apache airavata: a framework for distributed applications and computational
@@ -55,112 +209,3 @@
   venue: Proceedings of the 2011 ACM Workshop on Gateway Computing Environments
   doi: 10.1145/2110486.2110490
   url: https://doi.org/10.1145/2110486.2110490
-- id: hayes2025quantifyingroleopenfoldcomponents
-  type: misc
-  title: Quantifying the Role of OpenFold Components in Protein Structure Prediction
-  year: 2025
-  authors:
-  - Tyler L. Hayes
-  - Giri P. Krishnan
-  url: https://arxiv.org/abs/2511.14781
-- id: wannipurage2021multi
-  type: article
-  title: A multi-protocol, secure, and dynamic data storage integration frameworkfor
-    multi-tenanted science gateway middleware
-  year: 2021
-  authors:
-  - Wannipurage, Dimuthu
-  - Ranawaka, Isuru
-  - Abeysinghe, Eroma
-  - Christie, Marcus
-  - Marru, Suresh
-  - Pierce, Marlon
-  venue: arXiv preprint arXiv:2107.03882
-- id: 10.1145/3569951.3597572
-  type: inproceedings
-  title: 'Airavata Data Catalog: A Multi-tenant Metadata Service for Efficient Data
-    Discovery and Access Control'
-  year: 2023
-  authors:
-  - Christie, Marcus
-  - Marru, Suresh
-  - Pamidighantam, Sudhakar
-  - Ranawaka, Isuru
-  - Wannipurage, Dimuthu
-  venue: 'Practice and Experience in Advanced Research Computing 2023: Computing for
-    the Common Good'
-  doi: 10.1145/3569951.3597572
-  url: https://doi.org/10.1145/3569951.3597572
-- id: ranawaka2023airavata
-  type: incollection
-  title: 'Airavata Metascheduler: A Reliable, Fault Tolerant, and Resource-Aware Job
-    Scheduling Service'
-  year: 2023
-  authors:
-  - Ranawaka, Isuru
-  - Abeysinghe, Eroma
-  - Wannipurage, Dimuthu
-  - De Silva, Dinuka
-  - Brookes, Emre
-  - Marru, Suresh
-  - Christie, Marcus
-  - Pamidighantam, Sudhakar
-  - Pierce, Marlon
-  venue: 'Practice and Experience in Advanced Research Computing 2023: Computing for
-    the Common Good'
-- id: sciencegateways2015survey
-  type: article
-  title: 'Science gateways today and tomorrow: positive perspectives of nearly 5000
-    members of the research community'
-  year: 2015
-  authors:
-  - Lawrence, Katherine A.
-  - Zentner, Michael
-  - Wilkins-Diehr, Nancy
-  - Wernert, Julie A.
-  - Pierce, Marlon
-  - Marru, Suresh
-  - Michael, Scott
-  venue: 'Concurrency and Computation: Practice and Experience'
-  doi: https://doi.org/10.1002/cpe.3526
-  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.3526
-- id: 10.1145/3311790.3396635
-  type: inproceedings
-  title: 'Custos: Security Middleware for Science Gateways'
-  year: 2020
-  authors:
-  - Ranawaka, Isuru
-  - Marru, Suresh
-  - Graham, Juleen
-  - Bisht, Aarushi
-  - Basney, Jim
-  - Fleury, Terry
-  - Gaynor, Jeff
-  - Wannipurage, Dimuthu
-  - Christie, Marcus
-  - Mahmoud, Alexandru
-  - Afgan, Enis
-  - Pierce, Marlon
-  venue: 'Practice and Experience in Advanced Research Computing 2020: Catch the Wave'
-  doi: 10.1145/3311790.3396635
-  url: https://doi.org/10.1145/3311790.3396635
-- id: blaze2023
-  type: inproceedings
-  title: 'Blaze: A High-Performance, Scalable, and Efficient Data Transfer Framework
-    with Configurable and Extensible Features : Principles, Implementation, and Evaluation
-    of a Transatlantic Inter-Cloud Data Transfer Case Study'
-  year: 2023
-  authors:
-  - Marru, Suresh
-  - Freitag, Brian
-  - Wannipurage, Dimuthu
-  - Bommala, Uday Kumar
-  - Pradier, Patrick
-  - Demange, Christophe
-  - Pantha, Nishan
-  - Mukherjee, Tathagata
-  - Rosich, Betlem
-  - Monjoux, Eric
-  - Ramachandran, Rahul
-  venue: 2023 IEEE 16th International Conference on Cloud Computing (CLOUD)
-  doi: 10.1109/CLOUD60044.2023.00016
