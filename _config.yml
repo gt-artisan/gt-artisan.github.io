@@ -7,10 +7,9 @@ plugins:
   - jekyll-seo-tag
 
 nav:
-  - { label: "Home",                href: "/" }
-  - { label: "Research",            href: "/research" }
-  - { label: "Projects",            href: "/projects" }
-  - { label: "Scientific Software", href: "/scientific-software" }
-  - { label: "Partners",            href: "/partners" }
-  - { label: "People",              href: "/people" }
-  - { label: "Publications",        href: "/publications" }
+  - { label: "Projects",      href: "/#projects" }
+  - { label: "Software",      href: "/#software" }
+  - { label: "Collaboration", href: "/#collaboration" }
+  - { label: "People",        href: "/#people" }
+  - { label: "Partners",      href: "/#partners" }
+  - { label: "Publications",  href: "/publications" }

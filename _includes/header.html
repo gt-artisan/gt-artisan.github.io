@@ -13,12 +13,17 @@
         {% else %}
           {% assign match = false %}
         {% endif %}
-        <a href="{{ item.href | relative_url }}"
+        {% if page.url == "/" and item.href contains "/#" %}
+          {% assign nav_href = item.href | remove_first: "/" %}
+        {% else %}
+          {% assign nav_href = item.href | relative_url %}
+        {% endif %}
+        <a href="{{ nav_href }}"
            {% if match %}class="active" aria-current="page"{% endif %}>
           {{ item.label }}
         </a>
       {% endfor %}
     </nav>
-    <a href="{{ '/partners' | relative_url }}" class="header-cta">Collaborate <span aria-hidden="true">→</span></a>
+    <a href="{{ '/#contact' | relative_url }}" class="header-cta">Collaborate <span aria-hidden="true">→</span></a>
   </div>
 </header>
